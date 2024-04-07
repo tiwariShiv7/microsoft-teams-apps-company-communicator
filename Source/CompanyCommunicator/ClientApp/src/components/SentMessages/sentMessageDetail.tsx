@@ -295,6 +295,7 @@ export const SentMessageDetail = (sentMessages: any) => {
                   <div style={{ display: 'inline-block' }}>
                     <Tooltip content={t('TooltipSuccess') ?? ''} relationship='label'>
                       <Button
+                        role='presentation'
                         appearance='subtle'
                         icon={<CheckmarkSquare24Regular style={{ color: '#22bb33', verticalAlign: 'middle' }} />}
                         size='small'
@@ -305,6 +306,7 @@ export const SentMessageDetail = (sentMessages: any) => {
                   <div style={{ display: 'inline-block' }}>
                     <Tooltip content={t('TooltipFailure') ?? ''} relationship='label'>
                       <Button
+                        role='presentation'
                         appearance='subtle'
                         icon={<ShareScreenStop24Regular style={{ color: '#bb2124', verticalAlign: 'middle' }} />}
                         size='small'
@@ -316,6 +318,7 @@ export const SentMessageDetail = (sentMessages: any) => {
                     <div style={{ display: 'inline-block' }}>
                       <Tooltip content='Canceled' relationship='label'>
                         <Button
+                          role='presentation'
                           appearance='subtle'
                           icon={<BookExclamationMark24Regular style={{ color: '#f0ad4e', verticalAlign: 'middle' }} />}
                           size='small'
@@ -328,6 +331,7 @@ export const SentMessageDetail = (sentMessages: any) => {
                     <div style={{ display: 'inline-block' }}>
                       <Tooltip content='Unknown' relationship='label'>
                         <Button
+                          role='presentation'
                           appearance='subtle'
                           icon={<Warning24Regular style={{ color: '#e9835e', verticalAlign: 'middle' }} />}
                           size='small'
