@@ -734,6 +734,7 @@ export const NewMessage = () => {
                 validationMessage={titleErrorMessage}
               >
                 <Input
+                  autoFocus
                   // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
                   placeholder={t('PlaceHolderTitle')!}
                   onChange={onTitleChanged}
